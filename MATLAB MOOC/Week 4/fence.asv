@@ -1,0 +1,8 @@
+function [abc, k]= fence(a,b)
+c=a/b;
+% a is lenght of fence, b is length of each segment
+abc = ceil(c);
+% the roundds toward +infinity
+k=abc+1;
+% a digit higher
+end
